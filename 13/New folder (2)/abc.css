@@ -1,0 +1,83 @@
+.muh{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(9, 98, 243);
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.muh .a01{
+    width: 20px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35PX;
+    left: 40PX;
+}
+.a01 .b01{
+    width: 8px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20PX;
+    left: 9PX;
+}
+.muh .a02{
+    width: 20px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35PX;
+    left: 80PX;
+}
+.a02 .b02{
+    width: 8px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20PX;
+    left: 4px;
+}
+.muh .a03{
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 65px;
+    left: 60px;
+}
+.muh .a04{
+    width: 30px;
+    height: 20px;
+    border-radius: 0% 0% 50% 50%;
+    background-color: pink;
+    border: 5px solid white;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.row01{
+    width: 100px;
+    height: 17px;
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    top: 238px;
+    left: 519px;
+}
+.row01 .s01{
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    position: absolute;
+    top: 0px;
+    left: 37px;
+    border-radius: 50%;
+}
+

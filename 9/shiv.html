@@ -6,20 +6,52 @@
 	<title></title>
 	<style type="text/css">
 		.sa{
-			width: 700px;
+			width: 650px;
 			margin: auto;
 		}
-
 		.shiv{
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
 			margin: 12px;
-
 		}
-		.se{
-			width: 700px;
+		.row01{
+          margin: 12px;
 		}
+		.row01 .abc{
+			border: 1px solid;
+			padding: 4px;
+		}
+		.row02{
+			margin: 12px;
+		}
+		.row03{
+			margin: 12px;
+		}
+		.row03 .abc02{
+			border: 1px solid;
+			padding: 4px;
+		}
+		.row04{
+			margin: 12px;
+		}
+		.row04 .abc03{
+			border: 1px solid;
+			padding: 5px;
+		}
+		.row05{
+			text-align: center;
+			padding: 15px;	
+		}
+		.row05 .button{
+			width: 70px;
+			height: 35px;
+			color: #fefefe;
+			background-color: darkmagenta;
+			border: none;
+			border-radius: 5px;
+		}
+				
 	</style>
 </head>
 <body>
@@ -32,7 +64,7 @@
 				<label for="name"> first name </label><br>
 		     <input type="text" required value="" placeholder="enter your first name">
 		    </div>
-            <div><label>last name</label><br>
+            <div class="sagar02"><label>last name</label><br>
 		     <input type="text" required value="" placeholder="enter your last name"></div>
 		  </div>
 		   <div class="shiv">
@@ -40,7 +72,7 @@
 				<label for="name"> email </label><br>
 		     <input type="email" required value="" placeholder="www@gmail.com">
 		    </div>
-            <div><label>mobile no.</label><br>
+            <div class="asc"><label>mobile no.</label><br>
 		     <input type="content" required value="" placeholder="91-000-000-0000"></div>
 		  </div>
 		  <div class="shiv">
@@ -59,13 +91,45 @@
 		    	<option>sikar</option>
 		    	<option>udaipur</option>
 		    </select> </div>
-		       <div class="se">
-		       	<label>gender</label>
-		       	<div>
-		       	<input type="radio" placeholder="">
-		       	</div>
-		       </div>
+		       
 		  </div>
+		  <div class="row01">
+			<label for="name"> GENDER </label><br>
+			   <div class="abc">
+			<input type="radio" name="GENDER" >Men
+			<input type="radio" name="GENDER">female
+			<input type="radio" name="GENDER">other
+		        </div>
+		  </div>
+		  <div class="row02">
+			
+			<span class="Address">ADDRESS</span><br/>
+			<div class="sag">
+				<textarea name="" id="" Job Application Form placeholder="ENTER YOUR ADDRESS" class="textarea"></textarea>
+			</div>
+		  </div>
+		  <div class="row03">
+			<label for="name"> QUALIFICATION </label><br>
+			   <div class="abc02">
+			<input type="radio" name="QUALIFICATION"> 10<sup>TH </sup>
+			<input type="radio" name="QUALIFICATION"> 12<sup>TH </sup>
+			<input type="radio" name="QUALIFICATION"> UNDER GRADUATE 
+			<input type="radio" name="QUALIFICATION">POST GRADUATE
+			
+		        </div>
+		  </div>
+		  <div class="row04">
+			<label for="name">UPLOAD IMAGE</label><br>
+			<div class="abc03">
+				<input type="file" name="" id="">
+			</div>	
+		  </div>
+		  <div class="row05">
+			<button class="button">SAVE</button>
+			<button class="button">RESET</button>
+		  </div>
+
+
 		</fieldset>
 
 
